@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="62c72673-bf64-4598-a646-6200ef8c8023" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Language>EN-US</Language>
+			<Scale>200</Scale>
+			<TargetSize>24</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Questions.xr.xml" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Files/Questions.xr.xml">
+				<Candidate type="Path">
+					<Value>Questions.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Files/Assets/StoreLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Views">
+				<NamedResource name="MainPage.xbf" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Files/Views/MainPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MainPage1.xbf" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Files/Views/MainPage1.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="FxResources.System.Drawing.Common.SR">
+			<NamedResource name="BlendObjectFirstElementInvalid" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/BlendObjectFirstElementInvalid">
+				<Candidate type="String">
+					<Value>Invalid Blend object. The positions array must have 0.0 as its first element.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="BlendObjectLastElementInvalid" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/BlendObjectLastElementInvalid">
+				<Candidate type="String">
+					<Value>Invalid Blend object. The positions array must have 1.0 as its last element.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="BlendObjectMustHaveTwoElements" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/BlendObjectMustHaveTwoElements">
+				<Candidate type="String">
+					<Value>Invalid Blend object. It should have at least 2 elements in each of the factors and positions arrays.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CantChangeImmutableObjects" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/CantChangeImmutableObjects">
+				<Candidate type="String">
+					<Value>Changes cannot be made to {0} because permissions are not valid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CantMakeIconTransparent" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/CantMakeIconTransparent">
+				<Candidate type="String">
+					<Value>Bitmaps that are icons cannot be made transparent. Icons natively support transparency. Use the Icon constructor to create an icon.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CantTellPrinterName" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/CantTellPrinterName">
+				<Candidate type="String">
+					<Value>(printer name protected due to security restrictions)</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ColorNotSystemColor" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/ColorNotSystemColor">
+				<Candidate type="String">
+					<Value>The color {0} is not a system color.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ConvertInvalidPrimitive" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/ConvertInvalidPrimitive">
+				<Candidate type="String">
+					<Value>{0} is not a valid value for {1}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DCTypeInvalid" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/DCTypeInvalid">
+				<Candidate type="String">
+					<Value>GetObjectType on this dc returned an invalid value.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DllNotFoundExceptionMessage" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/DllNotFoundExceptionMessage">
+				<Candidate type="String">
+					<Value>Unable to load DLL '{0}': The specified module could not be found.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DotNET_ComponentType" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/DotNET_ComponentType">
+				<Candidate type="String">
+					<Value>.NET Component</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EntryPointNotFoundExceptionMessage" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/EntryPointNotFoundExceptionMessage">
+				<Candidate type="String">
+					<Value>Unable to find an entry point named '{0}' in DLL '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusAborted" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusAborted">
+				<Candidate type="String">
+					<Value>Function was ended.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusAccessDenied" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusAccessDenied">
+				<Candidate type="String">
+					<Value>File access is denied.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusCannotCreateGraphicsFromIndexedPixelFormat" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusCannotCreateGraphicsFromIndexedPixelFormat">
+				<Candidate type="String">
+					<Value>A Graphics object cannot be created from an image that has an indexed pixel format.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusCannotSetPixelFromIndexedPixelFormat" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusCannotSetPixelFromIndexedPixelFormat">
+				<Candidate type="String">
+					<Value>SetPixel is not supported for images with indexed pixel formats.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusDestPointsInvalidLength" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusDestPointsInvalidLength">
+				<Candidate type="String">
+					<Value>Destination points must be an array with a length of 3 or 4. A length of 3 defines a parallelogram with the upper-left, upper-right, and lower-left corners. A length of 4 defines a quadrilateral with the fourth element of the array specifying the lower-right coordinate.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusDestPointsInvalidParallelogram" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusDestPointsInvalidParallelogram">
+				<Candidate type="String">
+					<Value>Destination points define a parallelogram which must have a length of 3. These points will represent the upper-left, upper-right, and lower-left coordinates (defined in that order).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusFileNotFound" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusFileNotFound">
+				<Candidate type="String">
+					<Value>File not found.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusFontFamilyNotFound" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusFontFamilyNotFound">
+				<Candidate type="String">
+					<Value>Font '{0}' cannot be found.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusFontStyleNotFound" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusFontStyleNotFound">
+				<Candidate type="String">
+					<Value>Font '{0}' does not support style '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusGenericError" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusGenericError">
+				<Candidate type="String">
+					<Value>A generic error occurred in GDI+.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusInsufficientBuffer" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusInsufficientBuffer">
+				<Candidate type="String">
+					<Value>Buffer is too small (internal GDI+ error).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusInvalidParameter" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusInvalidParameter">
+				<Candidate type="String">
+					<Value>Parameter is not valid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusInvalidRectangle" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusInvalidRectangle">
+				<Candidate type="String">
+					<Value>Rectangle '{0}' cannot have a width or height equal to 0.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusInvalidSize" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusInvalidSize">
+				<Candidate type="String">
+					<Value>Operation requires a transformation of the image from GDI+ to GDI. GDI does not support images with a width or height greater than 32767.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusNotImplemented" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusNotImplemented">
+				<Candidate type="String">
+					<Value>Not implemented.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusNotInitialized" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusNotInitialized">
+				<Candidate type="String">
+					<Value>GDI+ is not properly initialized (internal GDI+ error).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusNotTrueTypeFont" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusNotTrueTypeFont">
+				<Candidate type="String">
+					<Value>Only TrueType fonts are supported. '{0}' is not a TrueType font.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusNotTrueTypeFont_NoName" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusNotTrueTypeFont_NoName">
+				<Candidate type="String">
+					<Value>Only TrueType fonts are supported. This is not a TrueType font.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusObjectBusy" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusObjectBusy">
+				<Candidate type="String">
+					<Value>Object is currently in use elsewhere.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusOutOfMemory" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusOutOfMemory">
+				<Candidate type="String">
+					<Value>Out of memory.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusOverflow" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusOverflow">
+				<Candidate type="String">
+					<Value>Overflow error.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusPropertyNotFoundError" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusPropertyNotFoundError">
+				<Candidate type="String">
+					<Value>Property cannot be found.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusPropertyNotSupportedError" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusPropertyNotSupportedError">
+				<Candidate type="String">
+					<Value>Property is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusUnknown" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusUnknown">
+				<Candidate type="String">
+					<Value>Unknown GDI+ error occurred.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusUnknownImageFormat" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusUnknownImageFormat">
+				<Candidate type="String">
+					<Value>Image format is unknown.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusUnsupportedGdiplusVersion" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusUnsupportedGdiplusVersion">
+				<Candidate type="String">
+					<Value>Current version of GDI+ does not support this feature.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GdiplusWrongState" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GdiplusWrongState">
+				<Candidate type="String">
+					<Value>Bitmap region is already locked.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GlobalAssemblyCache" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GlobalAssemblyCache">
+				<Candidate type="String">
+					<Value> (Global Assembly Cache)</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GraphicsBufferCurrentlyBusy" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GraphicsBufferCurrentlyBusy">
+				<Candidate type="String">
+					<Value>BufferedGraphicsContext cannot be disposed of because a buffer operation is currently in progress.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GraphicsBufferQueryFail" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/GraphicsBufferQueryFail">
+				<Candidate type="String">
+					<Value>Screen-compatible bitmap cannot be created. The screen bitmap format cannot be determined.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="IllegalState" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/IllegalState">
+				<Candidate type="String">
+					<Value>Internal state of the {0} class is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InterpolationColorsColorBlendNotSet" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InterpolationColorsColorBlendNotSet">
+				<Candidate type="String">
+					<Value>Property must be set to a valid ColorBlend object to use interpolation colors.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InterpolationColorsCommon" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InterpolationColorsCommon">
+				<Candidate type="String">
+					<Value>{0}{1} ColorBlend objects must be constructed with the same number of positions and color values. Positions must be between 0.0 and 1.0, 1.0 indicating the last element in the array.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InterpolationColorsInvalidColorBlendObject" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InterpolationColorsInvalidColorBlendObject">
+				<Candidate type="String">
+					<Value>ColorBlend object that was set is not valid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InterpolationColorsInvalidEndPosition" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InterpolationColorsInvalidEndPosition">
+				<Candidate type="String">
+					<Value>Position's last element must be equal to 1.0.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InterpolationColorsInvalidStartPosition" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InterpolationColorsInvalidStartPosition">
+				<Candidate type="String">
+					<Value>Position's first element must be equal to 0.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InterpolationColorsLength" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InterpolationColorsLength">
+				<Candidate type="String">
+					<Value>Array of colors and positions must contain at least two elements.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InterpolationColorsLengthsDiffer" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InterpolationColorsLengthsDiffer">
+				<Candidate type="String">
+					<Value>Colors and positions do not have the same number of elements.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidArgument" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidArgument">
+				<Candidate type="String">
+					<Value>Value of '{1}' is not valid for '{0}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidBoundArgument" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidBoundArgument">
+				<Candidate type="String">
+					<Value>Value of '{1}' is not valid for '{0}'. '{0}' should be greater than {2} and less than or equal to {3}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidClassName" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidClassName">
+				<Candidate type="String">
+					<Value>Class name is not valid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidColor" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidColor">
+				<Candidate type="String">
+					<Value>Color '{0}' is not valid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidDashPattern" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidDashPattern">
+				<Candidate type="String">
+					<Value>DashPattern value is not valid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidEnumArgument" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidEnumArgument">
+				<Candidate type="String">
+					<Value>The value of argument '{0}' ({1}) is invalid for Enum type '{2}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidEx2BoundArgument" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidEx2BoundArgument">
+				<Candidate type="String">
+					<Value>Value of '{1}' is not valid for '{0}'. '{0}' should be greater than or equal to {2} and less than or equal to {3}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidFrame" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidFrame">
+				<Candidate type="String">
+					<Value>Frame is not valid. Frame must be between 0 and FrameCount.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidGDIHandle" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidGDIHandle">
+				<Candidate type="String">
+					<Value>Win32 handle that was passed to {0} is not valid or is the wrong type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidImage" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidImage">
+				<Candidate type="String">
+					<Value>Image type is unknown.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidLowBoundArgumentEx" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidLowBoundArgumentEx">
+				<Candidate type="String">
+					<Value>Value of '{1}' is not valid for '{0}'. '{0}' must be greater than or equal to {2}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidPermissionLevel" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidPermissionLevel">
+				<Candidate type="String">
+					<Value>Permission level is not valid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidPermissionState" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidPermissionState">
+				<Candidate type="String">
+					<Value>Permission state is not valid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidPictureType" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidPictureType">
+				<Candidate type="String">
+					<Value>Argument '{0}' must be a picture that can be used as a {1}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidPrinterException_InvalidPrinter" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidPrinterException_InvalidPrinter">
+				<Candidate type="String">
+					<Value>Settings to access printer '{0}' are not valid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidPrinterException_NoDefaultPrinter" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidPrinterException_NoDefaultPrinter">
+				<Candidate type="String">
+					<Value>No printers are installed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidPrinterHandle" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/InvalidPrinterHandle">
+				<Candidate type="String">
+					<Value>Handle {0} is not valid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NativeHandle0" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/NativeHandle0">
+				<Candidate type="String">
+					<Value>Native handle is 0.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NoDefaultPrinter" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/NoDefaultPrinter">
+				<Candidate type="String">
+					<Value>Default printer is not set.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NotImplemented" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/NotImplemented">
+				<Candidate type="String">
+					<Value>Not implemented.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PDOCbeginPrintDescr" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/PDOCbeginPrintDescr">
+				<Candidate type="String">
+					<Value>Occurs when the document is about to be printed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PDOCdocumentNameDescr" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/PDOCdocumentNameDescr">
+				<Candidate type="String">
+					<Value>The name of the document shown to the user.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PDOCdocumentPageSettingsDescr" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/PDOCdocumentPageSettingsDescr">
+				<Candidate type="String">
+					<Value>The page settings of the page currently being printed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PDOCendPrintDescr" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/PDOCendPrintDescr">
+				<Candidate type="String">
+					<Value>Occurs after the document has been printed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PDOCoriginAtMarginsDescr" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/PDOCoriginAtMarginsDescr">
+				<Candidate type="String">
+					<Value>Indicates that the graphics origin is located at the user-specified page margins.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PDOCprintControllerDescr" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/PDOCprintControllerDescr">
+				<Candidate type="String">
+					<Value>Retrieves the print controller for this document.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PDOCprinterSettingsDescr" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/PDOCprinterSettingsDescr">
+				<Candidate type="String">
+					<Value>Retrieves the settings for the printer the document is currently being printed to.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PDOCprintPageDescr" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/PDOCprintPageDescr">
+				<Candidate type="String">
+					<Value>Occurs once for each page to be printed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PDOCqueryPageSettingsDescr" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/PDOCqueryPageSettingsDescr">
+				<Candidate type="String">
+					<Value>Occurs before each page is printed.  Useful for changing PageSettings for a particular page.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PlatformNotSupported_Drawing" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/PlatformNotSupported_Drawing">
+				<Candidate type="String">
+					<Value>System.Drawing is not supported on this platform.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PrintDocumentDesc" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/PrintDocumentDesc">
+				<Candidate type="String">
+					<Value>Defines an object that sends output to a printer.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PrintingPermissionAttributeInvalidPermissionLevel" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/PrintingPermissionAttributeInvalidPermissionLevel">
+				<Candidate type="String">
+					<Value>Permission level must be between PrintingPermissionLevel.NoPrinting and PrintingPermissionLevel.AllPrinting.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PrintingPermissionBadXml" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/PrintingPermissionBadXml">
+				<Candidate type="String">
+					<Value>XML is not valid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PropertyValueInvalidEntry" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/PropertyValueInvalidEntry">
+				<Candidate type="String">
+					<Value>IDictionary parameter contains at least one entry that is not valid. Ensure all values are consistent with the object's properties.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PSizeNotCustom" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/PSizeNotCustom">
+				<Candidate type="String">
+					<Value>PaperSize cannot be changed unless the Kind property is set to Custom.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ResourceNotFound" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/ResourceNotFound">
+				<Candidate type="String">
+					<Value>Resource '{1}' cannot be found in class '{0}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TargetNotPrintingPermission" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/TargetNotPrintingPermission">
+				<Candidate type="String">
+					<Value>Target does not have permission to print.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TextParseFailedFormat" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/TextParseFailedFormat">
+				<Candidate type="String">
+					<Value>Text "{0}" cannot be parsed. The expected text format is "{1}".</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ToolboxItemInvalidKey" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/ToolboxItemInvalidKey">
+				<Candidate type="String">
+					<Value>Argument should be a non-empty string.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ToolboxItemInvalidPropertyType" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/ToolboxItemInvalidPropertyType">
+				<Candidate type="String">
+					<Value>Property {0} requires an argument of type {1}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ToolboxItemLocked" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/ToolboxItemLocked">
+				<Candidate type="String">
+					<Value>Toolbox item cannot be modified.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ToolboxItemValueNotSerializable" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/ToolboxItemValueNotSerializable">
+				<Candidate type="String">
+					<Value>Data type {0} is not serializable. Items added to a property dictionary must be serializable.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="toStringIcon" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/toStringIcon">
+				<Candidate type="String">
+					<Value>(Icon)</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="toStringNone" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/toStringNone">
+				<Candidate type="String">
+					<Value>(none)</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TriStateCompareError" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/TriStateCompareError">
+				<Candidate type="String">
+					<Value>TriState.Default cannot be converted into a Boolean.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ValidRangeX" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/ValidRangeX">
+				<Candidate type="String">
+					<Value>Parameter must be positive and &lt; Width.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ValidRangeY" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/FxResources.System.Drawing.Common.SR/ValidRangeY">
+				<Candidate type="String">
+					<Value>Parameter must be positive and &lt; Height.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.AspNet.SignalR.Client.Resources">
+			<NamedResource name="Error_AspNetCoreServerDetected" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_AspNetCoreServerDetected">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Detected a connection attempt to an ASP.NET Core SignalR Server. This client only supports connecting to an ASP.NET SignalR Server. See https://aka.ms/signalr-core-differences for details.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_CertsCanOnlyBeAddedWhenDisconnected" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_CertsCanOnlyBeAddedWhenDisconnected">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Client Certificates cannot be added after the connection has started.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_ClientCallbackArgumentTypeMismatch" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_ClientCallbackArgumentTypeMismatch">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>A client callback for event {0} with {1} argument(s) was found, however an error occurred because {2}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_ClientCallbackInvalidNumberOfArguments" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_ClientCallbackInvalidNumberOfArguments">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>A client callback for event {0} with {1} argument(s) could not be found</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_ConnectionCancelled" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_ConnectionCancelled">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The connection was stopped before it could be started.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_ConnectionHasNotBeenEstablished" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_ConnectionHasNotBeenEstablished">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The connection has not been established.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_DataCannotBeSentConnectionDisconnected" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_DataCannotBeSentConnectionDisconnected">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Data cannot be sent because the connection is in the disconnected state. Call start before sending any data.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_DataCannotBeSentDuringWebSocketReconnect" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_DataCannotBeSentDuringWebSocketReconnect">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Data cannot be sent because the WebSocket connection is reconnecting.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_ErrorFromServer" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_ErrorFromServer">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Error message received from the server: '{0}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_IncompatibleProtocolVersion" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_IncompatibleProtocolVersion">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>You are using a version of the client that isn't compatible with the server. Client version {0}, server version {1}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_InvalidUriScheme" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_InvalidUriScheme">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Uri scheme '{0}' is not valid. The only valid uri schemes are 'http' and 'https'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_NegotiationLimitExceeded" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_NegotiationLimitExceeded">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Negotiate redirection limit exceeded.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_PossibleDeadlockDetected" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_PossibleDeadlockDetected">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Possible deadlock detected. A callback registered with "HubProxy.On" or "Connection.Received" has been executing for at least {0} seconds.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_ProcessResponseBeforeStart" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_ProcessResponseBeforeStart">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The ProcessResponse method cannot be called before the transport is started.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_ProxiesCannotBeAddedConnectionStarted" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_ProxiesCannotBeAddedConnectionStarted">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>A HubProxy cannot be added after the connection has been started.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_ReconnectTimeout" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_ReconnectTimeout">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Couldn't reconnect within the configured timeout of {0}, disconnecting.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_ReconnectWindowTimeout" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_ReconnectWindowTimeout">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The client has been inactive since {0} and it has exceeded the inactivity timeout of {1}. Stopping the connection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_ServerNegotiationFailed" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_ServerNegotiationFailed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Server negotiation failed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_StartFailed" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_StartFailed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Error during start request. Stopping the connection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_TaskCancelledException" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_TaskCancelledException">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Request failed - task cancelled.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_TransportCannotBeReused" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_TransportCannotBeReused">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The transport instance passed to the Negotiate method has already been used. Use a new transport instance each time you start a new connection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_TransportFailedToConnect" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_TransportFailedToConnect">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Transport failed trying to connect.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_TransportTimedOutTryingToConnect" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_TransportTimedOutTryingToConnect">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Transport timed out trying to connect</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Error_UrlCantContainQueryStringDirectly" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Error_UrlCantContainQueryStringDirectly">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Url cannot contain query string directly. Pass query string values in using available overload.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Message_ConnectionClosed" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Message_ConnectionClosed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Connection was disconnected before invocation result was received.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Message_Reconnecting" uri="ms-resource://62c72673-bf64-4598-a646-6200ef8c8023/Microsoft.AspNet.SignalR.Client.Resources/Message_Reconnecting">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Connection started reconnecting before invocation result was received.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

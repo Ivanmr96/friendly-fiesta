@@ -1,0 +1,153 @@
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Servidor Questions.dll.config
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Servidor Questions.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Servidor Questions.pdb
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\csc.exe
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\csc.exe.config
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\csc.rsp
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\csi.exe
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\csi.exe.config
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\csi.rsp
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.Managed.Core.targets
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.AppContext.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Collections.Immutable.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Console.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.IO.Compression.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.IO.FileSystem.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.IO.Pipes.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Reflection.Metadata.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Security.AccessControl.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Security.Claims.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Security.Principal.Windows.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.ValueTuple.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Xml.XmlDocument.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Xml.XPath.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\vbc.exe
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\vbc.exe.config
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\vbc.rsp
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\VBCSCompiler.exe
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\VBCSCompiler.exe.config
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.AspNet.SignalR.Core.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.Owin.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.Owin.Security.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.Web.Infrastructure.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Newtonsoft.Json.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Owin.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\System.Net.Http.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\System.Security.Cryptography.Algorithms.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\System.Security.Cryptography.Encoding.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\System.Security.Cryptography.Primitives.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\System.Security.Cryptography.X509Certificates.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.AspNet.SignalR.Core.xml
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.Owin.xml
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.Owin.Security.xml
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Newtonsoft.Json.xml
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\es\Microsoft.AspNet.SignalR.Core.resources.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\es\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\obj\Release\Servidor Questions.csprojAssemblyReference.cache
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\obj\Release\Servidor Questions.csproj.CoreCompileInputs.cache
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\obj\Release\Servidor Questions.csproj.CopyComplete
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\obj\Release\Servidor Questions.dll
+F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\obj\Release\Servidor Questions.pdb
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Servidor Questions.dll.config
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Servidor Questions.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Servidor Questions.pdb
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\csc.exe
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\csc.exe.config
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\csc.rsp
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\csi.exe
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\csi.exe.config
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\csi.rsp
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.Managed.Core.targets
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.AppContext.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Collections.Immutable.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Console.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.IO.Compression.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.IO.FileSystem.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.IO.Pipes.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Reflection.Metadata.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Security.AccessControl.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Security.Claims.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Security.Principal.Windows.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.ValueTuple.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Xml.XmlDocument.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Xml.XPath.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\vbc.exe
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\vbc.exe.config
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\vbc.rsp
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\VBCSCompiler.exe
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\roslyn\VBCSCompiler.exe.config
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.Owin.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.Owin.Security.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.Web.Infrastructure.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Newtonsoft.Json.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Owin.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\System.Net.Http.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\System.Security.Cryptography.Algorithms.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\System.Security.Cryptography.Encoding.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\System.Security.Cryptography.Primitives.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\System.Security.Cryptography.X509Certificates.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.Owin.xml
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.Owin.Security.xml
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Newtonsoft.Json.xml
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\es\Microsoft.AspNet.SignalR.Core.resources.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\bin\es\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\obj\Release\Servidor Questions.csproj.CopyComplete
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\obj\Release\Servidor Questions.dll
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\obj\Release\Servidor Questions.pdb
+E:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Servidor Questions\Servidor Questions\obj\Release\Servidor Questions.csprojAssemblyReference.cache

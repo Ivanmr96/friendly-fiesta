@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>107-13</Machine>
+    <WindowsUser>imoreno</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>62c72673-bf64-4598-a646-6200ef8c8023</PackageIdentityName>
+    <PackageIdentityPublisher>CN=moren</PackageIdentityPublisher>
+    <IntermediateOutputPath>F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>46149F55B0ED5CE2D2E5304DD1BB7FDC0FA7506AD0CA177647364C2820D0BCBF</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>62c72673-bf64-4598-a646-6200ef8c8023_1.0.0.0_x86__pa2ry0ey30t70</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>62c72673-bf64-4598-a646-6200ef8c8023_pa2ry0ey30t70!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>62c72673-bf64-4598-a646-6200ef8c8023</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=moren</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-01-24T10:51:00.699</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\bin\x86\Debug\Questions.exe">
+      <PackagePath>entrypoint\Questions.exe</PackagePath>
+      <Modified>2020-01-24T10:50:55.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imoreno\.nuget\packages\microsoft.aspnet.signalr.client\2.4.1\lib\netstandard2.0\Microsoft.AspNet.SignalR.Client.dll">
+      <PackagePath>Microsoft.AspNet.SignalR.Client.dll</PackagePath>
+      <Modified>2019-04-02T22:30:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imoreno\.nuget\packages\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2018-03-24T16:44:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imoreno\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-07-22T12:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\imoreno\.nuget\packages\system.drawing.common\4.7.0\lib\netstandard2.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+      <Modified>2018-09-18T17:38:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2018-10-23T00:33:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\applause.mp3">
+      <PackagePath>Assets\applause.mp3</PackagePath>
+      <Modified>2019-12-30T16:34:53.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\bensound-enigmatic.mp3">
+      <PackagePath>Assets\bensound-enigmatic.mp3</PackagePath>
+      <Modified>2019-12-30T16:20:45.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\bensound-epic.mp3">
+      <PackagePath>Assets\bensound-epic.mp3</PackagePath>
+      <Modified>2019-12-30T16:13:08.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\bensound-sweet.mp3">
+      <PackagePath>Assets\bensound-sweet.mp3</PackagePath>
+      <Modified>2019-12-30T16:20:45.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\boo.mp3">
+      <PackagePath>Assets\boo.mp3</PackagePath>
+      <Modified>2019-12-30T16:37:02.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\10.jpg">
+      <PackagePath>Assets\images\10.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\11.jpg">
+      <PackagePath>Assets\images\11.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\12.jpg">
+      <PackagePath>Assets\images\12.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\13.jpg">
+      <PackagePath>Assets\images\13.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\14.jpg">
+      <PackagePath>Assets\images\14.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\15.jpg">
+      <PackagePath>Assets\images\15.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\16.jpg">
+      <PackagePath>Assets\images\16.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\17.jpg">
+      <PackagePath>Assets\images\17.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\18.jpg">
+      <PackagePath>Assets\images\18.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\19.jpg">
+      <PackagePath>Assets\images\19.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\20.jpg">
+      <PackagePath>Assets\images\20.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\21.jpg">
+      <PackagePath>Assets\images\21.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\22.jpg">
+      <PackagePath>Assets\images\22.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\23.jpg">
+      <PackagePath>Assets\images\23.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\24.jpg">
+      <PackagePath>Assets\images\24.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\25.jpg">
+      <PackagePath>Assets\images\25.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\26.jpg">
+      <PackagePath>Assets\images\26.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\27.jpg">
+      <PackagePath>Assets\images\27.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:22.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\28.jpg">
+      <PackagePath>Assets\images\28.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:23.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\29.jpg">
+      <PackagePath>Assets\images\29.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:23.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\30.jpg">
+      <PackagePath>Assets\images\30.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:23.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\31.jpg">
+      <PackagePath>Assets\images\31.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:23.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\images\32.jpg">
+      <PackagePath>Assets\images\32.jpg</PackagePath>
+      <Modified>2020-01-01T21:08:23.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-12-15T09:53:33.639</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2019-10-31T22:42:24.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-31T22:42:24.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-31T22:42:24.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-31T22:42:24.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-31T22:42:24.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-31T22:42:24.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-31T22:42:24.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\bin\x86\Debug\Questions.xr.xml">
+      <PackagePath>Questions.xr.xml</PackagePath>
+      <Modified>2020-01-06T02:43:00.475</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-01-08T09:46:47.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\bin\x86\Debug\Views\PantallaLobby.xbf">
+      <PackagePath>Views\PantallaLobby.xbf</PackagePath>
+      <Modified>2020-01-24T10:50:55.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\bin\x86\Debug\Views\PantallaPartida.xbf">
+      <PackagePath>Views\PantallaPartida.xbf</PackagePath>
+      <Modified>2020-01-08T09:46:47.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2018-10-22T23:44:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-01-24T10:50:56.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\drive\DAM\Segundo\GitHub\Desarrollo-de-Interfaces\proyectos\Questions\Questions\bin\x86\Debug\Core\Questions.exe">
+      <PackagePath>Questions.exe</PackagePath>
+      <Modified>2020-01-24T10:51:00.640</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\imoreno\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\imoreno\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\imoreno\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\imoreno\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\imoreno\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\imoreno\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\imoreno\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\imoreno\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\imoreno\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\imoreno\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\imoreno\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\imoreno\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

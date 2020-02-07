@@ -1,0 +1,839 @@
+﻿<Page
+    x:Class="Questions.PantallaPartida"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Questions"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:Questions.ViewModels"
+    xmlns:Windows10version1903="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 8)"
+    xmlns:numerics="using:System.Numerics"
+    mc:Ignorable="d"
+    Background="LightGray">
+    <Page.DataContext>
+        <vm:clsPantallaPartidaVM/>
+    </Page.DataContext>
+
+    <Page.Resources>
+        <Storyboard x:ConnectionId='2' x:Name="myStoryboard">
+
+            <ColorAnimation
+                Storyboard.TargetName="{Binding NombreCajaPregunta}"
+                Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"
+                From="Transparent" To="{Binding ColorPregunta}" Duration="0:0:1"
+                 />
+        </Storyboard>
+
+        <Storyboard x:ConnectionId='3' x:Name="storyBoardFondoRojo">
+
+            <ColorAnimation
+                AutoReverse="True"
+                Storyboard.TargetName="framePartida"
+                Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"
+                From="Transparent" To="DarkRed" Duration="0:0:0.3"
+                />
+        </Storyboard>
+
+        <Storyboard x:ConnectionId='4' x:Name="storyBoardFondoVerde">
+
+            <ColorAnimation
+                AutoReverse="True"
+                Storyboard.TargetName="framePartida"
+                Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"
+                From="Transparent" To="DarkGreen" Duration="0:0:0.3"
+                />
+        </Storyboard>
+
+        <Storyboard x:ConnectionId='5' x:Name="rivalStoryboard">
+
+            <ColorAnimation
+                Storyboard.TargetName="{Binding NombreCajaPreguntaRival}"
+                Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"
+                From="Transparent" To="{Binding ColorPreguntaRival}" Duration="0:0:1"
+                 />
+        </Storyboard>
+
+        <Storyboard x:ConnectionId='6' x:Name="preguntasPropiasStoryBoard">
+            <DoubleAnimation 
+                Duration="0:0:0.5"
+                From="-140.0"
+                To="0.0" 
+                Storyboard.TargetProperty="X" 
+                Storyboard.TargetName="TargetTransform" />
+        </Storyboard>
+
+        <Storyboard x:ConnectionId='7' x:Name="preguntasRivalStoryBoard">
+            <DoubleAnimation x:ConnectionId='10' 
+                x:Name="preguntasRivalAnimation"
+                Duration="0:0:0.5"
+                From="140.0"
+                To="0.0"
+                Storyboard.TargetProperty="X" 
+                Storyboard.TargetName="TargetTransformRival" />
+        </Storyboard>
+
+        <SolidColorBrush x:Key="SemiTransparent" Color="#CC000000" />
+        <Storyboard x:ConnectionId='8' x:Name="customStoryBoard">
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.3000000" Storyboard.TargetName="pregunta" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" To="1158"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.3000000" Storyboard.TargetName="pregunta" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" To="-4"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.3000000" Storyboard.TargetName="respuesta1" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" To="1136"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.3000000" Storyboard.TargetName="respuesta1" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" To="4"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.3000000" Storyboard.TargetName="respuesta2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" To="1158"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.3000000" Storyboard.TargetName="respuesta2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" To="4"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.3000000" Storyboard.TargetName="respuesta3" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" To="2"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.3000000" Storyboard.TargetName="respuesta3" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" To="1152"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.3000000" Storyboard.TargetName="respuesta4" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" To="2"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.3000000" Storyboard.TargetName="respuesta4" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" To="1146"/>
+        </Storyboard>
+        <Storyboard x:ConnectionId='9' x:Name="customStoryBoard2">
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.1500000" Storyboard.TargetName="pregunta" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" To="-398"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.1500000" Storyboard.TargetName="pregunta" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" To="-8"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.1500000" Storyboard.TargetName="respuesta1" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" To="-298"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.1500000" Storyboard.TargetName="respuesta1" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" To="426"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.1500000" Storyboard.TargetName="respuesta1" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" To="29.287"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.1500000" Storyboard.TargetName="respuesta2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" To="-290"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.1500000" Storyboard.TargetName="respuesta2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" To="560"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.1500000" Storyboard.TargetName="respuesta2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" To="29.772"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.1500000" Storyboard.TargetName="respuesta4" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" To="422"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.1500000" Storyboard.TargetName="respuesta4" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" To="324"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.1500000" Storyboard.TargetName="respuesta4" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" To="-38.084"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.1500000" Storyboard.TargetName="respuesta3" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" To="332"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.1500000" Storyboard.TargetName="respuesta3" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" To="554"/>
+            <DoubleAnimation AutoReverse="True" Duration="00:00:00.1500000" Storyboard.TargetName="respuesta3" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" To="-31.518"/>
+        </Storyboard>
+
+
+
+    </Page.Resources>
+
+    <RelativePanel>
+
+        <RelativePanel x:ConnectionId='11'
+            Name="preguntasPropias"
+            RelativePanel.AlignBottomWithPanel="True"
+            RelativePanel.AlignTopWithPanel="True"
+            RelativePanel.AlignLeftWithPanel="True"
+            Width="140">
+            <RelativePanel.Background>
+                <LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
+                    <GradientStop Color="#FF131313"/>
+                    <GradientStop Color="Transparent" Offset="1"/>
+                </LinearGradientBrush>
+            </RelativePanel.Background>
+
+            <RelativePanel.RenderTransform>
+                <TranslateTransform x:ConnectionId='46' x:Name="TargetTransform" X="0" Y="0" />
+            </RelativePanel.RenderTransform>
+
+            <TextBlock x:ConnectionId='47' 
+                Name="txtBlockYou"
+                Foreground="Black"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignTopWithPanel="True"
+                Text="You"
+                FontSize="20"
+                HorizontalAlignment="Center"
+                Margin="20,20,20,0"/>
+
+            <StackPanel x:ConnectionId='48'
+                Name="stkAnswerBoxes"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignBottomWithPanel="True"
+                RelativePanel.Below="txtBlockYou"
+                Margin="45,0,45,10"
+                VerticalAlignment="Center"
+                >
+
+                <TextBlock
+                Foreground="Black"
+                Text="Answers"
+                FontSize="13" />
+
+                <Border x:ConnectionId='49'
+                    x:Name="pregunta1"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,2,0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='50'
+                    x:Name="pregunta2"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='51'
+                    x:Name="pregunta3"
+                    Width="auto"
+                    Height="50"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='52'
+                    x:Name="pregunta4"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='53'
+                    x:Name="pregunta5"
+                    Width="auto"
+                    Height="50"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='54'
+                    x:Name="pregunta6"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='55'
+                    x:Name="pregunta7"
+                    Width="auto"
+                    Height="50"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='56'
+                    x:Name="pregunta8"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='57'
+                    x:Name="pregunta9"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='58'
+                    x:Name="pregunta10"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+            </StackPanel>
+
+        </RelativePanel>
+
+        <RelativePanel x:ConnectionId='12'
+            Name="preguntasRival"
+            RelativePanel.AlignBottomWithPanel="True"
+            RelativePanel.AlignTopWithPanel="True"
+            RelativePanel.AlignRightWithPanel="True"
+            Width="140">
+
+            <RelativePanel.Background>
+                <LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
+                    <GradientStop Color="Transparent"/>
+                    <GradientStop Color="#FF131313" Offset="1"/>
+                </LinearGradientBrush>
+            </RelativePanel.Background>
+
+            <RelativePanel.RenderTransform>
+                <TranslateTransform x:ConnectionId='34' x:Name="TargetTransformRival" X="0" Y="0" />
+            </RelativePanel.RenderTransform>
+
+            <TextBlock x:ConnectionId='35' 
+                Name="txtBlockOpponentName"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignTopWithPanel="True"
+                Text="{Binding NombreRival}"
+                FontSize="20"
+                Foreground="Black"
+                HorizontalAlignment="Center"
+                Margin="20,20,20,0"/>
+
+            <StackPanel
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignBottomWithPanel="True"
+                RelativePanel.Below="txtBlockOpponentName"
+                Margin="45,0,45,10"
+                VerticalAlignment="Center"
+                >
+
+                <TextBlock
+                Foreground="Black"
+                Text="Answers"
+                FontSize="13" />
+
+                <Border x:ConnectionId='36'
+                    x:Name="preguntaRival1"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,2,0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='37'
+                    x:Name="preguntaRival2"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='38'
+                    x:Name="preguntaRival3"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='39'
+                    x:Name="preguntaRival4"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='40'
+                    x:Name="preguntaRival5"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='41'
+                    x:Name="preguntaRival6"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='42'
+                    x:Name="preguntaRival7"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='43'
+                    x:Name="preguntaRival8"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='44'
+                    x:Name="preguntaRival9"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+                <Border x:ConnectionId='45'
+                    x:Name="preguntaRival10"
+                    Width="auto"
+                    Height="45"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    Margin="0,5"
+                    Background="Transparent">
+                </Border>
+
+            </StackPanel>
+
+        </RelativePanel>
+
+        <RelativePanel x:ConnectionId='13'
+            RelativePanel.AlignBottomWithPanel="True"
+            RelativePanel.AlignTopWithPanel="True"
+            RelativePanel.RightOf="preguntasPropias"
+            RelativePanel.LeftOf="preguntasRival"
+            x:Name="framePartida"
+            Background="Transparent">
+
+            <Button x:ConnectionId='26'
+                x:Name="btnBack"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignTopWithPanel="True"
+                Content="Leave"
+                Background="LightCoral"
+                Margin="20"
+                FontSize="16"
+                Padding="15,5,15,5"
+                CornerRadius="5"                      
+                />
+
+            <StackPanel
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignTopWithPanel="True"
+                HorizontalAlignment="Center"
+                >
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Foreground="Black" Text="Category:" Margin="20" FontSize="20"/>
+                    <TextBlock Foreground="Black" Text="{Binding Category}" Margin="0,20,30,20" FontSize="20" />
+
+                    <TextBlock Foreground="Black" Text="Question:" Margin="20" FontSize="20" />
+                    <TextBlock Foreground="Black" Text="{Binding NumeroPregunta}" FontSize="20" Margin="0,20,0,20"/>
+                    <TextBlock Foreground="Black" Text="/10" FontSize="20" Margin="0,20,0,20" />
+                </StackPanel>
+
+            </StackPanel>
+
+            <Border x:ConnectionId='27'
+            Name="pregunta"
+            Grid.Row="0"
+            Background="WhiteSmoke"
+            Grid.ColumnSpan="4"
+            Margin="0,150,0,0"
+            MinHeight="150"
+            MinWidth="700"
+            MaxWidth="900"
+            MaxHeight="200"
+            RelativePanel.AlignHorizontalCenterWithPanel="True"
+            BorderBrush="#FF464646"
+            BorderThickness="2"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            CornerRadius="20" RenderTransformOrigin="0.5,0.5">
+                <Border.RenderTransform>
+                    <CompositeTransform/>
+                </Border.RenderTransform>
+
+                <TextBlock x:ConnectionId='33'
+                Visibility="Visible"
+                Name="txtPregunta"
+                Height="auto"
+                MaxWidth="700"
+                Text="{Binding SelectedQuestion.question, Mode=TwoWay}"
+                Foreground="Black"
+                FontSize="21"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                TextWrapping="Wrap"
+                />
+
+            </Border>
+
+            <StackPanel
+            Orientation="Horizontal"
+            RelativePanel.AlignLeftWithPanel="True"
+            RelativePanel.AlignRightWithPanel="True"
+            Margin="90"
+            MinHeight="150"
+            MaxHeight="200"
+            HorizontalAlignment="Center"
+            RelativePanel.Below="pregunta">
+
+                <Border x:ConnectionId='29'
+                BorderThickness="0"
+                HorizontalAlignment="Stretch"
+                Name="respuesta1"
+                Grid.Row="1"
+                MinWidth="175"
+                MaxHeight="200"
+                Grid.Column="0"
+                Background="LightCoral"
+                Margin="15"
+                                         
+                CornerRadius="15" RenderTransformOrigin="0.5,0.5" BorderBrush="#FF464646" BackgroundSizing="InnerBorderEdge"
+                >
+                    <Border.RenderTransform>
+                        <CompositeTransform/>
+                    </Border.RenderTransform>
+
+                    <TextBlock
+                    Text="{Binding SelectedQuestion.answers[0], Mode=TwoWay}"
+                    Foreground="Black"
+                    FontSize="16"
+                    MaxWidth="160"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    FontStretch="UltraCondensed"
+                    TextWrapping="Wrap"
+                    Margin="0,5,0,5"
+                    />
+
+                </Border>
+
+                <Border x:ConnectionId='30'
+                BorderBrush="#FF464646"
+                HorizontalAlignment="Stretch"
+                Name="respuesta2"
+                Grid.Row="1"
+                Grid.Column="1"
+                Background="LightSeaGreen"
+                Margin="15"
+                                         
+                MinWidth="175"
+                MaxHeight="200"
+                CornerRadius="15" RenderTransformOrigin="0.5,0.5"
+                >
+                    <Border.RenderTransform>
+                        <CompositeTransform/>
+                    </Border.RenderTransform>
+
+                    <TextBlock
+                    Text="{Binding SelectedQuestion.answers[1]}"
+                    Foreground="Black"
+                    FontSize="16"
+                    MaxWidth="160"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    FontStretch="UltraCondensed"
+                    TextWrapping="Wrap"
+                    Margin="0,5,0,5"
+                    />
+
+                </Border>
+
+                <Border x:ConnectionId='31'
+                BorderBrush="#FF464646"
+                HorizontalAlignment="Stretch"
+                Name="respuesta3"
+                Grid.Row="1"
+                Grid.Column="2"
+                Background="LightGreen"
+                Margin="15"
+                                         
+                MinWidth="175"
+                MaxHeight="200"
+                CornerRadius="15" RenderTransformOrigin="0.5,0.5"
+                >
+                    <Border.RenderTransform>
+                        <CompositeTransform/>
+                    </Border.RenderTransform>
+
+                    <TextBlock
+                    Text="{Binding SelectedQuestion.answers[2]}"
+                    Foreground="Black"
+                    FontSize="16"
+                    MaxWidth="160"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    FontStretch="UltraCondensed"
+                    TextWrapping="Wrap"
+                    Margin="0,5,0,5"
+                    />
+
+                </Border>
+
+                <!--Background="LightGoldenrodYellow"-->
+
+                <Border x:ConnectionId='32'
+                BorderBrush="#FF464646"
+                HorizontalAlignment="Stretch"
+                Name="respuesta4"
+                Grid.Row="1"
+                Grid.Column="3"
+                Background="SkyBlue"
+                Margin="15"
+                                         
+                MinWidth="175"
+                MaxWidth="200"
+                MaxHeight="200"
+                CornerRadius="15" RenderTransformOrigin="0.5,0.5"
+                >
+                    <Border.RenderTransform>
+                        <CompositeTransform/>
+                    </Border.RenderTransform>
+
+                    <TextBlock
+                    Text="{Binding SelectedQuestion.answers[3]}"
+                    Foreground="Black"
+                    FontSize="16"
+                    MaxWidth="160"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    FontStretch="UltraCondensed"
+                    TextWrapping="Wrap"
+                    Margin="0,5,0,5"
+                    />
+
+                </Border>
+
+            </StackPanel>
+
+            <TextBlock x:ConnectionId='28'
+            Name="txtNotificacion"
+            FontSize="25"
+            Text="{Binding Notificacion}"
+            Foreground="Green"
+            RelativePanel.AlignLeftWithPanel="True"
+            RelativePanel.AlignRightWithPanel="True"
+            RelativePanel.AlignTopWithPanel="True"
+            Margin="120"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            />
+
+            <!--<TextBlock
+            FontSize="25"
+            Text="{Binding PreguntasAcertadas}"
+            Foreground="Green"
+            RelativePanel.AlignRightWithPanel="True"
+            RelativePanel.AlignTopWithPanel="True"
+            Margin="25"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            />
+
+            <TextBlock
+            FontSize="25"
+            Text="{Binding PreguntasFalladas}"
+            Foreground="Red"
+            RelativePanel.AlignLeftWithPanel="True"
+            RelativePanel.AlignTopWithPanel="True"
+            Margin="25"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            />-->
+
+        </RelativePanel>
+
+        <RelativePanel x:ConnectionId='14' 
+            RelativePanel.AlignBottomWithPanel="True"
+            RelativePanel.AlignTopWithPanel="True"
+            RelativePanel.AlignLeftWithPanel="True"
+            RelativePanel.AlignRightWithPanel="True"
+            x:Name="esperandoRival" d:IsHidden="True">
+
+            <StackPanel
+                RelativePanel.AlignBottomWithPanel="True"
+                RelativePanel.AlignTopWithPanel="True"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                VerticalAlignment="Center">
+
+                <StackPanel
+                    Margin="40"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+
+                    <TextBlock x:ConnectionId='24' 
+                    Name="txtBuscandoRival"
+                    Text="Looking for an opponent"
+                    Foreground="Black"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontSize="30"/>
+
+                    <ProgressRing x:ConnectionId='25' x:Name="progressRing" Margin="20"/>
+
+                </StackPanel>
+
+                <Button x:ConnectionId='23' 
+                Background="#FF2C2C2C"
+                Content="Back" 
+                Foreground="White"
+                FontSize="20"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"                     />
+
+            </StackPanel>
+
+
+
+        </RelativePanel>
+
+        <RelativePanel x:ConnectionId='15'
+            RelativePanel.AlignBottomWithPanel="True"
+            RelativePanel.AlignTopWithPanel="True"
+            RelativePanel.LeftOf="preguntasRival"
+            RelativePanel.RightOf="preguntasPropias"
+            x:Name="panelMatchStats" d:IsHidden="True">
+            <RelativePanel.Background>
+                <LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
+                    <GradientStop Color="#00000000" Offset="0"/>
+                    <GradientStop Color="Transparent" Offset="1"/>
+                    <GradientStop Color="#33000000" Offset="0.85"/>
+                    <GradientStop Color="#33000000" Offset="0.15"/>
+                    <GradientStop Color="#7F000000" Offset="0.473"/>
+                </LinearGradientBrush>
+            </RelativePanel.Background>
+
+            <RelativePanel
+                Margin="0,0,0,15"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignBottomWithPanel="True"
+                RelativePanel.AlignTopWithPanel="True"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Background="LightGray"
+                CornerRadius="10">
+
+                <TextBlock x:ConnectionId='19' 
+                    Foreground="Black"
+                    Name="txtTitle"
+                    RelativePanel.AlignLeftWithPanel="True"
+                    RelativePanel.AlignRightWithPanel="True"
+                    RelativePanel.AlignTopWithPanel="True"
+                    HorizontalAlignment="Center"
+                    FontSize="20"
+                    Margin="0,20,0,0"
+                    Text="The match is over" />
+
+                <Grid x:ConnectionId='20'
+                    RelativePanel.Below="txtTitle"
+                    Margin="20,10,20,20"
+                    Name="gridStats"
+>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock FontSize="18" Foreground="Black" VerticalAlignment="Center" Grid.Column="0" Grid.Row="1" Text="You" />
+                    <TextBlock FontSize="18" Foreground="Black" VerticalAlignment="Center" Grid.Column="0" Grid.Row="2" Text="{Binding NombreRival}" />
+
+                    <TextBlock FontSize="18" Foreground="Black" Margin="8" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="1" Text="Right answers" />
+                    <TextBlock FontSize="18" Foreground="Black" Margin="8" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="2" Text="Wrong answers" />
+
+                    <TextBlock FontSize="18" Foreground="DarkGreen" Margin="8" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="1" Text="{Binding PreguntasAcertadas}" />
+                    <TextBlock FontSize="18" Foreground="DarkRed" Margin="8" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="2" Text="{Binding PreguntasFalladas}" />
+
+                    <TextBlock FontSize="18" Foreground="DarkGreen" Margin="8" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1" Text="{Binding PreguntasAcertadasRival}" />
+                    <TextBlock FontSize="18" Foreground="DarkRed" Margin="8" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="2" Text="{Binding PreguntasFalladasRival}" />
+
+                </Grid>
+
+                <TextBlock x:ConnectionId='21' 
+                    x:Name="txtWonOrLost"
+                    RelativePanel.Below="gridStats"
+                    RelativePanel.AlignLeftWithPanel="True"
+                    RelativePanel.AlignRightWithPanel="True"
+                    HorizontalAlignment="Center"
+                    Margin="8,0,8,20"
+                    FontSize="18" Foreground="Black" Text="{Binding TextoHasGanadoOPerdido}" />
+
+                <Button x:ConnectionId='22' 
+                    Name="btnExit"
+                    Margin="0,0,0,15"
+                    Foreground="White"
+                    RelativePanel.AlignLeftWithPanel="True"
+                    RelativePanel.AlignRightWithPanel="True"
+                    RelativePanel.Below="txtWonOrLost"
+                    HorizontalAlignment="Center"
+                                        
+                    FontSize="18" 
+                    Background="#FF2C2C2C"
+                    Content="Leave"/>
+
+            </RelativePanel>
+
+        </RelativePanel>
+
+        <RelativePanel x:ConnectionId='16' 
+            RelativePanel.AlignBottomWithPanel="True"
+            RelativePanel.AlignTopWithPanel="True"
+            RelativePanel.LeftOf="preguntasRival"
+            RelativePanel.RightOf="preguntasPropias"
+            x:Name="esperandoQueContesteElRival"
+            Background="{StaticResource SemiTransparent}" d:IsHidden="True">
+
+            <StackPanel
+                Margin="0,0,0,15"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignBottomWithPanel="True"
+                HorizontalAlignment="Center"
+                Background="LightGray"
+                CornerRadius="15">
+
+                <StackPanel
+                    Margin="15"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+
+                    <TextBlock x:ConnectionId='17' 
+                    Name="txtEsperandoQueContesteRival"
+                    Text="Waiting for the opponent to answer"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Foreground="Black"
+                    FontSize="17"/>
+
+                    <ProgressRing x:ConnectionId='18' x:Name="progressRingRespuesta" Margin="20"/>
+
+                </StackPanel>
+
+            </StackPanel>
+
+
+
+        </RelativePanel>
+
+
+    </RelativePanel>
+
+</Page>
+

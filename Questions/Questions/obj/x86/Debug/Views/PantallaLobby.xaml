@@ -1,0 +1,469 @@
+﻿<Page
+    x:Class="Questions.Views.PantallaLobby"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Questions"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:vm="using:Questions.ViewModels"
+    Background="Black">
+
+    <Page.DataContext>
+        <vm:clsPantallaLobbyVM />
+    </Page.DataContext>
+
+
+    <Page.Resources>
+        <SolidColorBrush x:Key="SemiTransparent" Color="#CC000000" />
+        
+        <Style x:Key="ButtonPlay" TargetType="Button">
+            <Setter Property="Background" Value="{ThemeResource ButtonBackground}"/>
+            <Setter Property="BackgroundSizing" Value="OuterBorderEdge"/>
+            <Setter Property="Foreground" Value="{ThemeResource ButtonForeground}"/>
+            <Setter Property="BorderBrush" Value="{ThemeResource ButtonBorderBrush}"/>
+            <Setter Property="BorderThickness" Value="{ThemeResource ButtonBorderThemeThickness}"/>
+            <Setter Property="Padding" Value="{StaticResource ButtonPadding}"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
+            <Setter Property="UseSystemFocusVisuals" Value="{StaticResource UseSystemFocusVisuals}"/>
+            <Setter Property="FocusVisualMargin" Value="-3"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter x:Name="ContentPresenter" AutomationProperties.AccessibilityView="Raw" BackgroundSizing="{TemplateBinding BackgroundSizing}" Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" CornerRadius="{TemplateBinding CornerRadius}" ContentTransitions="{TemplateBinding ContentTransitions}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <Storyboard>
+                                            <PointerUpThemeAnimation Storyboard.TargetName="ContentPresenter"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Background">
+                                                <!--<DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonBackgroundPointerOver}"/>-->
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SystemAccentColorLight1}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="BorderBrush">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonBorderBrushPointerOver}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Foreground">
+                                                <!--<DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonForegroundPointerOver}"/>-->
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <PointerUpThemeAnimation Storyboard.TargetName="ContentPresenter"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Background">
+                                                <!--<DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonBackgroundPressed}"/>-->
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SystemAccentColorDark1}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="BorderBrush">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonBorderBrushPressed}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Foreground">
+                                                <!--<DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonForegroundPressed}"/>-->
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <PointerDownThemeAnimation Storyboard.TargetName="ContentPresenter"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Background">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonBackgroundDisabled}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="BorderBrush">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonBorderBrushDisabled}"/>
+                                            </ObjectAnimationUsingKeyFrames>-->
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonForegroundDisabled}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </ContentPresenter>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="ListViewStyle1" TargetType="ListView">
+            <Setter Property="IsTabStop" Value="False"/>
+            <Setter Property="TabNavigation" Value="Once"/>
+            <Setter Property="IsSwipeEnabled" Value="True"/>
+            <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled"/>
+            <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+            <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Disabled"/>
+            <Setter Property="ScrollViewer.IsHorizontalRailEnabled" Value="False"/>
+            <Setter Property="ScrollViewer.VerticalScrollMode" Value="Enabled"/>
+            <Setter Property="ScrollViewer.IsVerticalRailEnabled" Value="True"/>
+            <Setter Property="ScrollViewer.ZoomMode" Value="Disabled"/>
+            <Setter Property="ScrollViewer.IsDeferredScrollingEnabled" Value="False"/>
+            <Setter Property="ScrollViewer.BringIntoViewOnFocusChange" Value="True"/>
+            <Setter Property="UseSystemFocusVisuals" Value="{StaticResource UseSystemFocusVisuals}"/>
+            <Setter Property="ItemContainerTransitions">
+                <Setter.Value>
+                    <TransitionCollection>
+                        <AddDeleteThemeTransition/>
+                        <ContentThemeTransition/>
+                        <ReorderThemeTransition/>
+                        <EntranceThemeTransition IsStaggeringEnabled="False"/>
+                    </TransitionCollection>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="ItemsPanel">
+                <Setter.Value>
+                    <ItemsPanelTemplate>
+                        <ItemsStackPanel Orientation="Vertical"/>
+                    </ItemsPanelTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListView">
+                        <Border 
+                            Background="{TemplateBinding Background}" 
+                            BorderThickness="{TemplateBinding BorderThickness}" 
+                            BorderBrush="{TemplateBinding BorderBrush}" 
+                            CornerRadius="{TemplateBinding CornerRadius}"
+                            >
+                            <ScrollViewer 
+                                x:Name="ScrollViewer" 
+                                AutomationProperties.AccessibilityView="Raw"
+                                BringIntoViewOnFocusChange="{TemplateBinding ScrollViewer.BringIntoViewOnFocusChange}" 
+                                HorizontalScrollBarVisibility="{TemplateBinding ScrollViewer.HorizontalScrollBarVisibility}"
+                                HorizontalScrollMode="{TemplateBinding ScrollViewer.HorizontalScrollMode}"
+                                IsDeferredScrollingEnabled="{TemplateBinding ScrollViewer.IsDeferredScrollingEnabled}"
+                                IsVerticalScrollChainingEnabled="{TemplateBinding ScrollViewer.IsVerticalScrollChainingEnabled}"
+                                IsHorizontalRailEnabled="{TemplateBinding ScrollViewer.IsHorizontalRailEnabled}"
+                                IsVerticalRailEnabled="{TemplateBinding ScrollViewer.IsVerticalRailEnabled}"
+                                IsHorizontalScrollChainingEnabled="{TemplateBinding ScrollViewer.IsHorizontalScrollChainingEnabled}"
+                                TabNavigation="{TemplateBinding TabNavigation}"
+                                VerticalScrollMode="{TemplateBinding ScrollViewer.VerticalScrollMode}"
+                                VerticalScrollBarVisibility="{TemplateBinding ScrollViewer.VerticalScrollBarVisibility}" 
+                                ZoomMode="{TemplateBinding ScrollViewer.ZoomMode}"
+                                >
+                                <ItemsPresenter 
+                                    Footer="{TemplateBinding Footer}"
+                                    FooterTransitions="{TemplateBinding FooterTransitions}" 
+                                    FooterTemplate="{TemplateBinding FooterTemplate}" 
+                                    Header="{TemplateBinding Header}"
+                                    HeaderTransitions="{TemplateBinding HeaderTransitions}" 
+                                    HeaderTemplate="{TemplateBinding HeaderTemplate}"
+                                    Padding="{TemplateBinding Padding}"/>
+                            </ScrollViewer>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="ListViewItemContainerStyle1" TargetType="ListViewItem">
+            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+            <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
+            <Setter Property="Background" Value="{ThemeResource ListViewItemBackground}"/>
+            <Setter Property="Foreground" Value="{ThemeResource ListViewItemForeground}"/>
+            <Setter Property="TabNavigation" Value="Local"/>
+            <Setter Property="IsHoldingEnabled" Value="True"/>
+            <Setter Property="Padding" Value="12,0,12,0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="MinWidth" Value="{ThemeResource ListViewItemMinWidth}"/>
+            <Setter Property="MinHeight" Value="{ThemeResource ListViewItemMinHeight}"/>
+            <Setter Property="AllowDrop" Value="False"/>
+            <Setter Property="UseSystemFocusVisuals" Value="{StaticResource UseSystemFocusVisuals}"/>
+            <Setter Property="FocusVisualMargin" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListViewItem">
+                        <ListViewItemPresenter x:Name="Root" CheckBrush="{ThemeResource ListViewItemCheckBrush}" ContentMargin="{TemplateBinding Padding}" CheckBoxBrush="{ThemeResource ListViewItemCheckBoxBrush}" ContentTransitions="{TemplateBinding ContentTransitions}" CheckMode="{ThemeResource ListViewItemCheckMode}" DragOpacity="{ThemeResource ListViewItemDragThemeOpacity}" DisabledOpacity="{ThemeResource ListViewItemDisabledThemeOpacity}" DragBackground="{ThemeResource ListViewItemDragBackground}" DragForeground="{ThemeResource ListViewItemDragForeground}" FocusBorderBrush="{ThemeResource ListViewItemFocusBorderBrush}" FocusVisualMargin="{TemplateBinding FocusVisualMargin}" FocusSecondaryBorderBrush="{ThemeResource ListViewItemFocusSecondaryBorderBrush}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Control.IsTemplateFocusTarget="True" PressedBackground="{ThemeResource ListViewItemBackgroundPressed}" PlaceholderBackground="{ThemeResource ListViewItemPlaceholderBackground}" PointerOverForeground="{ThemeResource ListViewItemForegroundPointerOver}" PointerOverBackground="{ThemeResource ListViewItemBackgroundPointerOver}" RevealBorderThickness="{ThemeResource ListViewItemRevealBorderThemeThickness}" ReorderHintOffset="{ThemeResource ListViewItemReorderHintThemeOffset}" RevealBorderBrush="{ThemeResource ListViewItemRevealBorderBrush}" RevealBackground="{ThemeResource ListViewItemRevealBackground}" SelectedForeground="{ThemeResource ListViewItemForegroundSelected}" SelectionCheckMarkVisualEnabled="{ThemeResource ListViewItemSelectionCheckMarkVisualEnabled}" SelectedBackground="{ThemeResource ListViewItemBackgroundSelected}" SelectedPressedBackground="{ThemeResource ListViewItemBackgroundSelectedPressed}" SelectedPointerOverBackground="{ThemeResource ListViewItemBackgroundSelectedPointerOver}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="Selected"/>
+                                    <VisualState x:Name="PointerOver">
+                                        <VisualState.Setters>
+                                            <Setter Target="Root.(RevealBrush.State)" Value="PointerOver"/>
+                                            <Setter Target="Root.RevealBorderBrush" Value="{ThemeResource ListViewItemRevealBorderBrushPointerOver}"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                    <VisualState x:Name="PointerOverSelected">
+                                        <VisualState.Setters>
+                                            <Setter Target="Root.(RevealBrush.State)" Value="PointerOver"/>
+                                            <Setter Target="Root.RevealBorderBrush" Value="{ThemeResource ListViewItemRevealBorderBrushPointerOver}"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                    <VisualState x:Name="PointerOverPressed">
+                                        <VisualState.Setters>
+                                            <Setter Target="Root.(RevealBrush.State)" Value="Pressed"/>
+                                            <Setter Target="Root.RevealBorderBrush" Value="{ThemeResource ListViewItemRevealBorderBrushPressed}"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <VisualState.Setters>
+                                            <Setter Target="Root.(RevealBrush.State)" Value="Pressed"/>
+                                            <Setter Target="Root.RevealBorderBrush" Value="{ThemeResource ListViewItemRevealBorderBrushPressed}"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                    <VisualState x:Name="PressedSelected">
+                                        <VisualState.Setters>
+                                            <Setter Target="Root.(RevealBrush.State)" Value="Pressed"/>
+                                            <Setter Target="Root.RevealBorderBrush" Value="{ThemeResource ListViewItemRevealBorderBrushPressed}"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="DisabledStates">
+                                    <VisualState x:Name="Enabled"/>
+                                    <VisualState x:Name="Disabled">
+                                        <VisualState.Setters>
+                                            <Setter Target="Root.RevealBorderThickness" Value="0"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </ListViewItemPresenter>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="ListViewChatItemContainerStyle" TargetType="ListViewItem">
+            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+            <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
+            <Setter Property="Background" Value="{ThemeResource ListViewItemBackground}"/>
+            <Setter Property="Foreground" Value="{ThemeResource SystemAccentColorLight1}"/>
+            <Setter Property="TabNavigation" Value="Local"/>
+            <Setter Property="IsHoldingEnabled" Value="True"/>
+            <Setter Property="Padding" Value="12,0,12,0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="MinWidth" Value="{ThemeResource ListViewItemMinWidth}"/>
+            <Setter Property="MinHeight" Value="{ThemeResource ListViewItemMinHeight}"/>
+            <Setter Property="AllowDrop" Value="False"/>
+            <Setter Property="UseSystemFocusVisuals" Value="{StaticResource UseSystemFocusVisuals}"/>
+            <Setter Property="FocusVisualMargin" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListViewItem">
+                        <ListViewItemPresenter x:Name="Root" CheckBrush="{ThemeResource ListViewItemCheckBrush}" ContentMargin="{TemplateBinding Padding}" CheckBoxBrush="{ThemeResource ListViewItemCheckBoxBrush}" ContentTransitions="{TemplateBinding ContentTransitions}" CheckMode="{ThemeResource ListViewItemCheckMode}" DragOpacity="{ThemeResource ListViewItemDragThemeOpacity}" DisabledOpacity="{ThemeResource ListViewItemDisabledThemeOpacity}" DragBackground="{ThemeResource ListViewItemDragBackground}" DragForeground="{ThemeResource ListViewItemDragForeground}" FocusBorderBrush="{ThemeResource ListViewItemFocusBorderBrush}" FocusVisualMargin="{TemplateBinding FocusVisualMargin}" FocusSecondaryBorderBrush="{ThemeResource ListViewItemFocusSecondaryBorderBrush}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Control.IsTemplateFocusTarget="True" PressedBackground="{ThemeResource ListViewItemBackgroundPressed}" PlaceholderBackground="{ThemeResource ListViewItemPlaceholderBackground}" PointerOverForeground="{ThemeResource ListViewItemForegroundPointerOver}" PointerOverBackground="{ThemeResource ListViewItemBackgroundPointerOver}" RevealBorderThickness="{ThemeResource ListViewItemRevealBorderThemeThickness}" ReorderHintOffset="{ThemeResource ListViewItemReorderHintThemeOffset}" RevealBorderBrush="{ThemeResource ListViewItemRevealBorderBrush}" RevealBackground="{ThemeResource ListViewItemRevealBackground}" SelectedForeground="{ThemeResource ListViewItemForegroundSelected}" SelectionCheckMarkVisualEnabled="{ThemeResource ListViewItemSelectionCheckMarkVisualEnabled}" SelectedBackground="{ThemeResource ListViewItemBackgroundSelected}" SelectedPressedBackground="{ThemeResource ListViewItemBackgroundSelectedPressed}" SelectedPointerOverBackground="{ThemeResource ListViewItemBackgroundSelectedPointerOver}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="Selected"/>
+                                    <VisualState x:Name="PointerOver">
+                                        <VisualState.Setters>
+                                            <Setter Target="Root.(RevealBrush.State)" Value="PointerOver"/>
+                                            <Setter Target="Root.RevealBorderBrush" Value="{ThemeResource ListViewItemRevealBorderBrushPointerOver}"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                    <VisualState x:Name="PointerOverSelected">
+                                        <VisualState.Setters>
+                                            <Setter Target="Root.(RevealBrush.State)" Value="PointerOver"/>
+                                            <Setter Target="Root.RevealBorderBrush" Value="{ThemeResource ListViewItemRevealBorderBrushPointerOver}"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                    <VisualState x:Name="PointerOverPressed">
+                                        <VisualState.Setters>
+                                            <Setter Target="Root.(RevealBrush.State)" Value="Pressed"/>
+                                            <Setter Target="Root.RevealBorderBrush" Value="{ThemeResource ListViewItemRevealBorderBrushPressed}"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <VisualState.Setters>
+                                            <Setter Target="Root.(RevealBrush.State)" Value="Pressed"/>
+                                            <Setter Target="Root.RevealBorderBrush" Value="{ThemeResource ListViewItemRevealBorderBrushPressed}"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                    <VisualState x:Name="PressedSelected">
+                                        <VisualState.Setters>
+                                            <Setter Target="Root.(RevealBrush.State)" Value="Pressed"/>
+                                            <Setter Target="Root.RevealBorderBrush" Value="{ThemeResource ListViewItemRevealBorderBrushPressed}"/>
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="DisabledStates">
+                                    <VisualState x:Name="Enabled"/>
+                                    <VisualState x:Name="Disabled">
+                                        <VisualState.Setters>
+                                            <Setter Target="Root.Background" Value="{ThemeResource SystemAccentColorLight1}"/>
+                                            <!--<Setter Target="Root.RevealBorderThickness" Value="0"/>-->
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </ListViewItemPresenter>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <RelativePanel>
+
+        <Image 
+            RelativePanel.AlignTopWithPanel="True"
+            RelativePanel.AlignLeftWithPanel="True"
+            RelativePanel.AlignRightWithPanel="True"
+            RelativePanel.AlignBottomWithPanel="True"
+            Source="{Binding Fondo}"
+            />
+
+        <ListView x:ConnectionId='10' ItemContainerStyle="{StaticResource ListViewItemContainerStyle1}" Style="{StaticResource ListViewStyle1}"
+            Foreground="White"
+            Background="{StaticResource SemiTransparent}"
+            Name="categoriesList"
+            ItemsSource="{Binding Categories}"
+            SelectedItem="{Binding SelectedCategory, Mode=TwoWay}"
+            RelativePanel.AlignBottomWithPanel="True"
+            RelativePanel.AlignTopWithPanel="True"
+            RelativePanel.AlignLeftWithPanel="True"
+            HorizontalContentAlignment="Stretch"
+            Width="350"
+            >
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Grid.Column="0" Margin="0, 0, 20, 0" RelativePanel.AlignLeftWithPanel="True" Text="{Binding Nombre}" Foreground="White" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+        <StackPanel x:ConnectionId='11'
+            Name="stkNombre"
+            RelativePanel.AlignBottomWithPanel="True"
+            RelativePanel.RightOf="categoriesList"
+            RelativePanel.AlignRightWithPanel="True"
+            HorizontalAlignment="Center"
+            Orientation="Horizontal"
+            Margin="100"
+            Background="{StaticResource SemiTransparent}">
+
+            <TextBlock 
+                Text="Your name: "
+                FontSize="20"
+                 Margin="10"
+                Foreground="White"
+                VerticalAlignment="Center"/>
+
+            <TextBox
+                Text="{Binding NombreUsuario, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                FontSize="20"
+                Margin="10,10,40,10"
+                MinWidth="200"
+                MaxWidth="250"/>
+
+            <Button x:ConnectionId='20' Style="{StaticResource ButtonPlay}" 
+            Background="{ThemeResource SystemAccentColor}"
+            Foreground="Black"
+            VerticalAlignment="Center"
+            Margin="10"
+            FontSize="20"
+            Content="Play" 
+            Command="{Binding buscarPartida}" 
+                                
+            CornerRadius="5"/>
+
+        </StackPanel>
+
+        <RelativePanel x:ConnectionId='12'
+            RelativePanel.RightOf="categoriesList"
+            RelativePanel.Above="stkNombre"
+            RelativePanel.Below="stkNumOfPlayers"
+            RelativePanel.AlignRightWithPanel="True"
+            Margin="100,100,100,0"
+            x:Name="chat">
+
+            <Border x:ConnectionId='14'
+                Name="marcoChat"
+                RelativePanel.AlignTopWithPanel="True"
+                RelativePanel.AlignBottomWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignLeftWithPanel="True"
+                BorderBrush="{ThemeResource SystemAccentColorLight1}"
+                BorderThickness="7"
+                CornerRadius="5"
+                Background="{StaticResource SemiTransparent}">
+
+            </Border>
+
+            <ListView x:ConnectionId='15' ItemContainerStyle="{StaticResource ListViewChatItemContainerStyle}" 
+                ItemsSource="{Binding Messages}"
+                RelativePanel.AlignTopWithPanel="True"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.Above="panelMensaje"
+                Name="listaMensajes"
+                Margin="10,10,10,0"
+                IsItemClickEnabled="False"
+                IsTapEnabled="True"
+                IsEnabled="False">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate >
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock 
+                                FontSize="18">
+                                <Run FontWeight="Bold"  Text="{Binding nombre}"></Run>
+                                <Run FontWeight="Bold" Text=": "></Run>
+                                <Run Text="{Binding mensaje}"></Run>
+                            </TextBlock>
+
+                        </StackPanel>
+                    </DataTemplate>
+
+                </ListView.ItemTemplate>
+
+            </ListView>
+
+            <RelativePanel x:ConnectionId='16'
+                Name="panelMensaje"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                RelativePanel.AlignBottomWithPanel="True">
+
+                <TextBox x:ConnectionId='17' 
+                    PlaceholderText="Write a message"
+                    Name="txtMsg"
+                    Text="{Binding Message.mensaje, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                    Margin="15,10,0,15"
+                    RelativePanel.LeftOf="btnSend"
+                    RelativePanel.AlignLeftWithPanel="True"
+                    RelativePanel.AlignBottomWithPanel="True"
+                    RelativePanel.AlignTopWithPanel="True"/>
+
+                <AppBarButton x:ConnectionId='18' 
+                    Name="btnSend"
+                    RelativePanel.AlignRightWithPanel="True"
+                    RelativePanel.AlignBottomWithPanel="True"
+                    RelativePanel.AlignTopWithPanel="True"
+                    Icon="Send"
+                    Label="Send"
+                    Command="{Binding sendMessage}"/>
+
+            </RelativePanel>
+
+        </RelativePanel>
+
+        <StackPanel x:ConnectionId='13'
+            Name="stkNumOfPlayers"
+            Background="{StaticResource SemiTransparent}"
+            Margin="20"
+            Orientation="Horizontal"
+            RelativePanel.AlignTopWithPanel="True"
+            RelativePanel.AlignRightWithPanel="True">
+
+            <TextBlock Margin="10,10,5,10" Foreground="White" FontSize="20" Text="Players looking for a game: "/>
+            <TextBlock Margin="0,10,10,10" Foreground="White" FontSize="20" Text="{Binding SelectedCategory.NumJugadoresBuscando}" />
+
+        </StackPanel>
+
+    </RelativePanel>
+
+</Page>
+

@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\drive\\DAM\\Segundo\\GitHub\\Desarrollo-de-Interfaces\\proyectos\\Questions\\Questions\\Questions.csproj": {}
+  },
+  "projects": {
+    "E:\\drive\\DAM\\Segundo\\GitHub\\Desarrollo-de-Interfaces\\proyectos\\Questions\\Questions\\Questions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\drive\\DAM\\Segundo\\GitHub\\Desarrollo-de-Interfaces\\proyectos\\Questions\\Questions\\Questions.csproj",
+        "projectName": "Questions",
+        "projectPath": "E:\\drive\\DAM\\Segundo\\GitHub\\Desarrollo-de-Interfaces\\proyectos\\Questions\\Questions\\Questions.csproj",
+        "packagesPath": "C:\\Users\\moren\\.nuget\\packages\\",
+        "outputPath": "E:\\drive\\DAM\\Segundo\\GitHub\\Desarrollo-de-Interfaces\\proyectos\\Questions\\Questions\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\moren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.AspNet.SignalR.Client": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.9, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

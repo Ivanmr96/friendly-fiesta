@@ -1,0 +1,53 @@
+﻿<Page
+    x:Class="Questions.Views.MainPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Questions"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:vm="using:Questions.ViewModels"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.DataContext>
+        <vm:clsMainPage1VM />
+    </Page.DataContext>
+
+
+    <RelativePanel>
+
+        <ListView x:ConnectionId='2'
+            ItemsSource="{Binding Categories}"
+            SelectedItem="{Binding SelectedCategory, Mode=TwoWay}"
+                                    
+            RelativePanel.AlignBottomWithPanel="True"
+            RelativePanel.AlignTopWithPanel="True"
+            RelativePanel.AlignLeftWithPanel="True"
+            HorizontalContentAlignment="Stretch"
+            Width="350"
+            >
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Grid.Column="0" Margin="0, 0, 20, 0" RelativePanel.AlignLeftWithPanel="True" Text="{Binding Nombre}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+
+        <StackPanel
+            Orientation="Horizontal"
+            RelativePanel.AlignBottomWithPanel="True"
+            RelativePanel.AlignRightWithPanel="True">
+
+            <Button x:ConnectionId='3' Content="Buscar partida" Command="{Binding buscarPartida}"                     />
+
+            <TextBlock FontSize="20" Text="Jugadores buscando partida: "/>
+            <TextBlock FontSize="20" Text="{Binding SelectedCategory.NumJugadoresBuscando}" />
+
+        </StackPanel>
+
+    </RelativePanel>
+
+</Page>
+
